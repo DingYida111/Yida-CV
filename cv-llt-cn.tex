@@ -7,8 +7,11 @@
 \mynames{Ding/Yida}
 
 \ifxetexorluatex
+  \usepackage{xeCJK}
+  \xeCJKsetup{CJKspace=true}
   \usepackage{fontspec}
-  \setsansfont{PingFang SC}
+  \setCJKmainfont{PingFang SC}
+  \setCJKsansfont{PingFang SC}
 \else
   \usepackage[T1]{fontenc}
   \usepackage[p,osf,swashQ]{cochineal}
